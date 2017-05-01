@@ -27,7 +27,7 @@ For each record it is provided:
 
 
 
-THE DATASET OF THE PROJECT FOR PEER ASSESSMENT ;it includes the following files:
+THE DATASET OF THE PROJECT FOR PEER ASSESSMENT : it includes the following files:
 =============================================================================
 
 - 'README.md'
