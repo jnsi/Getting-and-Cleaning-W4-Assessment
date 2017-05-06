@@ -5,8 +5,10 @@
 ## Original data sources      
 
 
+
 The original source for this data set is the "Human Activity Recognition Using Smartphones Data Set" produced by the Center for Machine Learning and Intelligent Systems found at this URL: 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://url.com/ "Title")
+
 
 This data set is a subset of the above source data. It was cleaned into a tidy dataset following the instructions of the "Getting and Cleaning Data" Coursera week 4 assignment.
 
@@ -46,6 +48,7 @@ The data set is the average of each feature for each activity and each subject.
 
  
 # Activities<h1>
+
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
@@ -148,5 +151,7 @@ The data set is the average of each feature for each activity and each subject.
 * angleX_gravityMean
 * angleY_gravityMean
 * angleZ_gravityMean
+
+
 
 
