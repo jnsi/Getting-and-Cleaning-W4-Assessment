@@ -53,15 +53,15 @@ The data set is the average of each feature for each activity and each subject.
 5. STANDING
 6. LAYING
 
+# Variables<h1>  
+    
 
-#Variables<h1>    
+#Class of variables<h2>    
 
-
-#Class of variables 
 1.  Numeric
 2.  Factor
 
-#Variables by name
+#Variables by name<h2>   
 
 
 * tBodyAccMeanX
@@ -150,8 +150,5 @@ The data set is the average of each feature for each activity and each subject.
 * angleX_gravityMean
 * angleY_gravityMean
 * angleZ_gravityMean
-
-
-
 
 
