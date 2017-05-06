@@ -40,31 +40,31 @@ THE STEP BY STEP SCRIPT
 ***************************
 
 Script question 1: Merges the training and the test sets to create one data set.
-1 Check if data directory exits
-2 Load library downloader uses to download thefile; data.table to read large data, dplyr to organize data to obtain tidy data
-3 Download the zip file and unzip it in the specified directory
-4 Date the download of the file
-5 Read the metadata from activity_labels and features files with the name of the features and the name of the activities respectively; 
-6 Read training and test data sets with 3 files each for subject, activity and features
-7 Use rbind fonction to clip data together by subject, then by activity and finally by features to merge data
-8 Rename the columns V1 to V561 of features data set based on the names of featuresName related to metadata
-9 Name clearly the columns for subject and activity 
+- Check if data directory exits
+- Load library downloader uses to download thefile; data.table to read large data, dplyr to organize data to obtain tidy data
+- Download the zip file and unzip it in the specified directory
+- Date the download of the file
+-  Read the metadata from activity_labels and features files with the name of the features and the name of the activities respectively; 
+- Read training and test data sets with 3 files each for subject, activity and features
+- Use rbind fonction to clip data together by subject, then by activity and finally by features to merge data
+- Rename the columns V1 to V561 of features data set based on the names of featuresName related to metadata
+- Name clearly the columns for subject and activity 
 
 Script question 2: Extracts only the measurements on the mean and standard deviation for each measurement
-1- Search the entries that include mean() or std() anywhere in the name of columns
-2- create a subset of data with all the rows from mergeData and including only the required columns with mean, sdt, activity and subject
-3- View the dimension of the extracted data dim() and the content with str()
+- Search the entries that include mean() or std() anywhere in the name of columns
+- create a subset of data with all the rows from mergeData and including only the required columns with mean, sdt, activity and subject
+- View the dimension of the extracted data dim() and the content with str()
 
 Script question 3 : Uses descriptive activity names to name the activities in the data set
-1- The activity columns is integer type :  first transform the type of the data to character to this column and 2nd factor the activity variable
+- The activity columns is integer type :  first transform the type of the data to character to this column and 2nd factor the activity variable
 
 Script question 4 : Appropriately labels the data set with descriptive variable names
-1- View the names of variables of extract data set with names()
-2- Replace all the short-names by long names : acc - > Accelerometer; the same action on gyro, bodybody, f, t, Mag
+- View the names of variables of extract data set with names()
+- Replace all the short-names by long names : acc - > Accelerometer; the same action on gyro, bodybody, f, t, Mag
 
 Script question 5 : From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-1- Coerce the type of columns subject to factor
-2- Create the tidy data as the average of each variable for each activity and each subject
-3- Sort tidy data first by subject
-4- write tidy data in a text file
+- Coerce the type of columns subject to factor
+- Create the tidy data as the average of each variable for each activity and each subject
+- Sort tidy data first by subject
+- write tidy data in a text file
 
