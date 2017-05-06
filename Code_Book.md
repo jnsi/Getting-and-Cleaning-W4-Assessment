@@ -56,12 +56,12 @@ The data set is the average of each feature for each activity and each subject.
 # Variables<h1>  
     
 
-#Class of variables<h2>    
+# Class of variables<h2>    
 
 1.  Numeric
 2.  Factor
 
-#Variables by name<h2>   
+# Variables by name<h2>   
 
 
 * tBodyAccMeanX
