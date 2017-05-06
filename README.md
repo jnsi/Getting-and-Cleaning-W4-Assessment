@@ -23,7 +23,7 @@ For each record it is provided:
 - An identifier of the subject who carried out the experiment.
 
 
-THE DATASET OF THE PROJECT FOR PEER ASSESSMENT : it includes the following files:
+# THE DATASET OF THE PROJECT FOR PEER ASSESSMENT : it includes the following files:
 =============================================================================
 
 - 'README.md'
@@ -35,11 +35,11 @@ THE DATASET OF THE PROJECT FOR PEER ASSESSMENT : it includes the following files
 - 'CodeBook.md': describes the variables, the data, and any transformations or work performed to clean up the data from the extracted data with only mean, std, activity, subject columns
 
 
-THE STEP BY STEP SCRIPT
+# THE STEP BY STEP SCRIPT<h1>
 ***************************
 ***************************
 
-Script question 1: Merges the training and the test sets to create one data set.
+## Script question 1: Merges the training and the test sets to create one data set.
 1. Check if data directory exits
 2. Load library downloader uses to download thefile; data.table to read large data, dplyr to organize data to obtain tidy data
 3. Download the zip file and unzip it in the specified directory
@@ -50,19 +50,19 @@ Script question 1: Merges the training and the test sets to create one data set.
 8. Rename the columns V1 to V561 of features data set based on the names of featuresName related to metadata
 9. Name clearly the columns for subject and activity 
 
-Script question 2: Extracts only the measurements on the mean and standard deviation for each measurement
+## Script question 2: Extracts only the measurements on the mean and standard deviation for each measurement
 1. Search the entries that include mean() or std() anywhere in the name of columns
 2. create a subset of data with all the rows from mergeData and including only the required columns with mean, sdt, activity and subject
 3.  View the dimension of the extracted data dim() and the content with str()
 
-Script question 3 : Uses descriptive activity names to name the activities in the data set
+## Script question 3 : Uses descriptive activity names to name the activities in the data set
 - The activity columns is integer type :  first transform the type of the data to character to this column and 2nd factor the activity variable
 
-Script question 4 : Appropriately labels the data set with descriptive variable names
+## Script question 4 : Appropriately labels the data set with descriptive variable names
 1.  View the names of variables of extract data set with names()
 2.  Replace all the short-names by long names : acc - > Accelerometer; the same action on gyro, bodybody, f, t, Mag
 
-Script question 5 : From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## Script question 5 : From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 1.  Coerce the type of columns subject to factor
 2. Create the tidy data as the average of each variable for each activity and each subject
 3. Sort tidy data first by subject
